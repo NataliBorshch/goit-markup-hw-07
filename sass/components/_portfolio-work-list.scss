@@ -1,0 +1,8 @@
+.work-list {
+    @extend %list;
+    background: $white-color;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}

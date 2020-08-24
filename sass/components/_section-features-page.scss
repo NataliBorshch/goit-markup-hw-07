@@ -1,0 +1,27 @@
+.features {
+    padding-bottom: 94px;
+}
+
+.features div {
+    @extend %container;
+}
+
+.service-list .service-item+.service-item {
+    margin-left: 30px;
+}
+
+.service-item {
+    width: calc((100% - 60px)/ 3);
+    align-items: baseline;
+    position: relative;
+}
+
+.service-list {
+    @extend %list;
+    display: flex;
+
+}
+
+.service-list img {
+    display: block;
+}

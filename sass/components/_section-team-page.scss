@@ -1,0 +1,9 @@
+.page-tim {
+    background: $svg-color;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    div {
+        @extend %container;
+    }
+}

@@ -1,0 +1,8 @@
+.page-portfolio {
+    padding-top: 93px;
+    padding-bottom: 94px;
+
+    & .container {
+        @extend %container;
+    }
+}

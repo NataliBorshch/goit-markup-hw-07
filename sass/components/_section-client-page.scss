@@ -1,0 +1,23 @@
+.our-client {
+    padding-top: 85px;
+    padding-bottom: 103px;
+
+    div {
+        @extend %container;
+    }
+}
+
+.client {
+    @extend %list;
+    display: flex;
+
+}
+
+.client .item {
+    width: calc((100% - 150px) / 6);
+}
+
+
+.client .item+.item {
+    margin-left: 30px;
+}
